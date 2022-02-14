@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD"
+    tools:context=".IscActivity">
+
+
+    <TextView
+        android:id="@+id/Label1"
+        android:layout_width="284dp"
+        android:layout_height="52dp"
+
+
+        android:hint="Label1"
+        android:textColor="#222222"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btncapturar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CampoText1"
+        app:layout_constraintVertical_bias="0.607"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/CampoText1"
+        android:layout_width="347dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="248dp"
+        android:hint="Campo de texto1"
+        app:layout_constraintBottom_toTopOf="@+id/btncapturar"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <Button
+        android:id="@+id/btncapturar"
+        android:layout_width="316dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#385BA1"
+        android:text="Boton 2"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAlert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="254dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="552dp"
+        android:backgroundTint="#A13838"
+        android:text="Boton 1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
